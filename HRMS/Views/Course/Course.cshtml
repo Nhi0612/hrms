@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Course";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link rel="stylesheet" href="atn.css">
+
+}
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <nav role="navigation" aria-label="Breadcrumb">
+        <ol class="breadcrumb d-none d-md-flex n1">
+            <i title="Home" class="fa fa-folder-open fa-lg"></i>
+            <span class="separator">
+                <i class="fa-angle-right fa"></i>
+            </span>
+            <li class="lastli"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" aria-current="page" href="https://cms.greenwich.edu.vn/course/index.php"><span itemprop="title">Courses</span></a></span></li>
+        </ol>
+    </nav>
+
+    <hr />
+    <div class="container">
+        <div class="d-flex flex-direction-row">
+            <form>
+                <div class="input-group">
+                    <input type="text" id="coursesearchbox" size="30" name="search" class="form-control" value="" placeholder="Search Courses">
+                    <div class="input-group-btn">
+                        <button type="submit" class="btn btn-default" style="background-color:#2f3542; color:#ffffff">Go</button>
+                    </div>
+                </div>
+            </form>
+            <div>
+                <button type="button" class="btn btn-dark" style="background-color:#2f3542; color:#ffffff; margin-left:100px;">Create Account</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="https://kit.fontawesome.com/94921f0167.js" crossorigin="anonymous"></script>
+</body>
+</html>
+

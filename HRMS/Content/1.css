@@ -1,0 +1,32 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ 
+    
+}
+
+.n1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+hr {
+   
+    margin-top: 0;
+    background-color: #7f8c8d;
+    height: 2px;
+}
+
+.form-control{
+    display:inline-block;
+
+}
+
+.n2 {
+    display: inline-block;
+
+}
